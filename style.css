@@ -1,0 +1,106 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 2;
+    background-color: #ebebeb;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pres {
+    display: grid;
+    grid-column-start: 2;
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0px 5px 5px 1px #dbdbdb;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    color: #dd5555;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+h2 {
+    color: #7d7d7d;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bio {
+    color: #7d7d7d;
+    text-align: left;
+}
+
+.tim {
+    border-radius: 50%;
+    border: solid 5px #cccccc;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.reseaux {
+    display: grid;
+    grid-column-start: 2;
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0px 5px 5px 1px #dbdbdb;
+}
+
+.movies {
+    display: grid;
+    grid-column-start: 2;
+    background-color: white;
+    margin: 15px;
+    box-shadow: 0px 5px 5px 1px #dbdbdb;
+}
+
+.odyssey {
+    grid-column-start: 2;
+}
+
+.hulot {
+    grid-column-start: 2;
+}
+
+.alien {
+    grid-column-start: 2;
+}
+
+.surligne {
+    background-color: #d4d4d4;
+}
+
+.button {
+    display: block;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #dd5555;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: 0.4s all;
+    transition: 0.4s all;
+    margin-left: 35%;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+.button:hover {
+    background-color: orange;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
