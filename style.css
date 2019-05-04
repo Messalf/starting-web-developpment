@@ -23,7 +23,12 @@ h1 {
     color: #dd5555;
     font-weight: 900;
     text-align: center;
-    
+
+}
+
+.favorite {
+    text-align: center;
+    grid-template-rows: 1 / span 2;
 }
 
 h2 {
@@ -48,11 +53,17 @@ h2 {
 }
 
 .reseaux {
-    display: grid;
+    display: flex;
     grid-column-start: 2;
     background-color: white;
     margin: 15px;
     box-shadow: 0px 5px 5px 1px #dbdbdb;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    padding: 60px 60px 60px 60px;
+
 }
 
 .movies {
@@ -61,6 +72,7 @@ h2 {
     background-color: white;
     margin: 15px;
     box-shadow: 0px 5px 5px 1px #dbdbdb;
+    color: #7f7e86;
 }
 
 .odyssey {
@@ -103,4 +115,24 @@ h2 {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+.links {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.fa-facebook-f {
+    color: #cccccc;
+    font-size: 25px;
+}
+
+.fa-linkedin-in {
+    color: #cccccc;
+    font-size: 25px;
+}
+
+.fa-twitter {
+    color: #cccccc;
+    font-size: 25px;
 }
