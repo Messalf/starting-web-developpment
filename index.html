@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+<!-- Boîte de presentation -->
     <div class="pres"><img class="tim" src="images/Tim.jpeg">
         <h1>Tim Berners-Lee</h1>
         <h2>Inventor of HTML</h2>
@@ -27,7 +27,7 @@
                 yourself</a></div>
     </div>
 
-
+<!-- Boîte avec les réseaux sociaux -->
     <div class="reseaux">
         <li><a class="links" href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook-f"></i><br>
                 Facebook</li></a>
@@ -37,26 +37,38 @@
                 Twitter</a></li>
     </div>
 
-
+<!-- Boîte avec les différents films -->
     <div class="movies">
         <h2 class="favorite"><span class="surligne">His</span> favorite movies</h2>
-        <img src="images/odyssey.jpeg">
-        <b>2001 - Space Odyssey</b>
-        <p> Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and,
-            with the intelligent computer H.A.L. 9000, sets off on a quest.
-        </p>
+        <div class="flex">
+            <img class="img" src="images/odyssey.jpeg">
+            <div>
+                <h3>2001 - Space Odyssey</h3>
+                <p> Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and,
+                    with the intelligent computer H.A.L. 9000, sets off on a quest.
+                </p>
+            </div>
+        </div>
 
-        <img src="images/vacances.jpeg">
-        <b>Monsieur Hulot</b>
-        <p> Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly)
-            causes havoc.
-        </p>
+        <div class="flex">
+            <img class="img" src="images/vacances.jpeg">
+            <div>
+                <h3>Monsieur Hulot</h3>
+                <p> Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly)
+                causes havoc.
+            </p>
+            </div> 
+        </div>
 
-        <img src="images/alien.jpeg">
-        <b>Alien</b>
-        <p>
+        <div class="flex">
+            <img class="img" src="images/alien.jpeg">
+            <div><h3>Alien</h3>
+            <p>
             The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for
-            survivors, the crew head home only to realize that a deadly bioform has joined them. </p>
+            survivors, the crew head home only to realize that a deadly bioform has joined them. 
+        </p></div>    
+        </div>
+        
 
     </div>
 </body>

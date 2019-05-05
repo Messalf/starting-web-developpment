@@ -26,16 +26,22 @@ h1 {
 
 }
 
-.favorite {
-    text-align: center;
-    grid-template-rows: 1 / span 2;
-}
-
 h2 {
     color: #7d7d7d;
     font-weight: 600;
     text-align: center;
 }
+
+h3 {
+    text-align: center;
+}
+
+/* His favorites movies */
+.favorite {
+    text-align: center;
+    grid-template-rows: 1 / span 2;
+}
+
 
 .bio {
     color: #7d7d7d;
@@ -122,6 +128,8 @@ h2 {
     text-decoration: none;
 }
 
+/* les 3 icônes des réseaux sociaux */
+
 .fa-facebook-f {
     color: #cccccc;
     font-size: 25px;
@@ -135,4 +143,20 @@ h2 {
 .fa-twitter {
     color: #cccccc;
     font-size: 25px;
+}
+
+/* concernant les 3 affiches de films et leur texte */
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    transform: scale(0.5);
+}
+
+.p {
+    font-size: 50px;
+    font-weight: 600;
 }
