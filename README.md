@@ -1,22 +1,14 @@
 # BeCode: Starting Web development
 
-> 🛰️ Short project's description
+> 🛰️ We had to do a webpage based on Tim Berners-Lee, following a layout that we received, the point was to make our page as close as possible visually that the layout we had.
 
 * * *
-
-A short abstract of the project, goals, context… Anything that should be useful for a future reader.
+Using html and CSS only.
 
 ## About
 
 A more detailed description of the project, with technical details: used langages and techs, context, etc.
 
-## Installation (if applicable)
-
-Details of process to install / setup dev environment for the project, if applicable.
-
-## Usage (if applicable)
-
-How to use the project, if applicable
 
 * * *
 
